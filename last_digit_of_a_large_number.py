@@ -20,6 +20,7 @@ last_digit(2 ** 200, 2 ** 300)  # returns 6
 ```
 
 '''
+
 def last_digit(n1, n2):
     n1_last_digit = None
     if n1 < 1 or n2 < 1:
@@ -63,4 +64,3 @@ def second_example_test_case():
         a = nmbr ** nmbr
         test.it("Testing %d and %d" % (a, 0))
         test.assert_equals(last_digit(a, 0), 1, "x ** 0 must return 1")
-887ms
